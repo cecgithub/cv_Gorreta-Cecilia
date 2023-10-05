@@ -1,0 +1,286 @@
+@import url('https://fonts.cdnfonts.com/css/catamaran');
+
+
+/* Définition des styles de police pour l'élément spécifique */
+.custom-font {
+	font-family: "YAFdJhPTLAc 0", sans-serif;
+	font-size: 42.6667px;
+	color: #4A454B;
+	line-height: 59px;
+	letter-spacing: 0.07em;
+	text-transform: uppercase;
+}
+*{
+	margin: 5;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+	font-family: 'catmaran', sans-serif;
+}
+
+body{
+	background: linear-gradient(to right, #ffffff, #ffffff);
+	margin-top: 20px;
+}
+
+.resume{
+	width: 800px;
+	background: #fff;
+	margin: 50px auto;
+	display: flex;
+	border-top:50px solid #F0CFC3;
+	
+}
+
+.left{
+	background: #ffffff	;
+	width: 300px;
+	padding: 0 20px;
+}
+
+.right{
+	width: calc(100% - 250px);
+}
+
+.left .img_holder{
+	text-align: center;
+	padding: 20px 0;
+}
+
+.left .img_holder img{
+	width: 200px;
+	border-radius: 100px;
+}
+
+.pb{
+	padding-bottom: 20px;
+}
+
+.title{
+	font-size: 20px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0px;
+	padding-bottom: 10px;
+	color: #19323C	;
+	text-align: left;
+	margin-bottom: 15px;
+}
+
+.left .icon{
+	font-size: 25px;
+	color: #000000;
+}
+
+.left .text{
+	color: #19323C;
+	text-transform: none;
+	font-size: 13px;
+}
+
+.contact .li_wrap{
+	display: flex;
+	align-items: center;
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+.contact .li_wrap .icon{
+	width: 50px;
+	height: 50px;
+	background: #fff;
+	border-radius: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 15px;
+}
+
+.contact .li_wrap .text{
+	width: calc(100% - 50px);
+	word-break: break-word;
+	color: #000000;	
+}
+
+.skills ul,
+.hobbies ul{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.skills .li_wrap,
+.hobbies .li_wrap{
+	width: 100px;
+	height: 100px;
+	margin-bottom: 15px;
+	border-radius: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.skills .li_wrap{
+	background: #fff;
+}
+
+.skills .li_wrap .text,
+.hobbies .li_wrap .text{
+	margin-top: 5px;
+}
+
+.hobbies .li_wrap{
+	border: 2px solid #fff;
+}
+
+.hobbies .li_wrap .icon,
+.hobbies .li_wrap .text{
+	color: #000000;
+}
+
+.hobbies .li_wrap:hover{
+	background: #fff;
+}
+
+.hobbies .li_wrap:hover .icon,
+.hobbies .li_wrap:hover .text{
+	color: #19323C;
+}
+
+.header{
+	background: #ffffff;
+	padding: 15px 70px;
+	color: #000000;
+	height: 200px;
+}
+
+.header .name{
+	margin-top: 50px;
+	font-size: 35px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #000000;
+}
+
+.header .role{
+	font-weight: 300;
+	font-size: 20px;
+}
+
+.header .about{
+	margin-top: 20px;
+	line-height: 20px;
+}
+
+.right_inner{
+	padding: 30px;
+	color: #000000;
+}
+
+.right_inner .education{
+	margin-top: 30px;
+}
+
+.right_inner .li_wrap{
+	display: flex;
+	margin-bottom: 15px;
+}
+
+.right_inner .li_wrap .date {
+    width: 70px;
+    color: #000000;
+}
+
+.right_inner .li_wrap .info{
+	width: calc(100%);
+	padding-left: 35px;
+	position: relative;
+}
+
+.right_inner .li_wrap .info_title{
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 2px;
+	color: #000000;
+}
+.title {
+    letter-spacing: 1px;
+}
+.right_inner .li_wrap .info_com{
+	font-weight: 300;
+	font-size: 14px;
+	margin-top: 3px;
+	
+}
+
+.right_inner .li_wrap .info_cont{
+	margin-top: 15px;
+}
+
+.right_inner .li_wrap .info:before{
+	content: "";
+	position: absolute;
+	top: 3px;
+	left: 0;
+	width: 10px;
+	height: 10px;
+	background: #000000;
+	border-radius: 50%;
+}
+
+.right_inner .li_wrap .info:after{
+	content: "";
+	position: absolute;
+	top: 10px;
+	left: 4px;
+	width: 2px;
+	height: 150%;
+	background: #000000;}
+
+.right_inner .li_wrap .info:after2{
+		content: "";
+		position: absolute;
+		top: 10px;
+		left: 4px;
+		width: 2px;
+		height: 90%;
+		background: #000000;}
+
+	.white-text {
+		color: rgb(0, 0, 0);
+	  }
+.center-title {
+	text-align: center;
+	margin-top: 20px;
+	}
+	.hobbies ul {
+		display: flex;
+		justify-content: space-between; /* Distribute items evenly */
+		align-items: center; /* Vertically align items */
+		margin-top: 10px;
+	  }
+	  
+	.hobbies .li_wrap {
+	/* Set a fixed width for each item */
+	width: 100px; /* Adjust as needed */
+	height: 100px;
+	border-radius: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background: #000000;
+	border: 2px solid #fff;
+	transition: background 0.3s ease-in-out;
+  }
+  .header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px; /* Hauteur du rectangle rose */
+    background-color: #ffffff; /* Couleur rose */
+    z-index: -1; /* Placez l'élément derrière le contenu */
+}
