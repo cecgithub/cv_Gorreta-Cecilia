@@ -18,10 +18,7 @@
 	font-family: 'catmaran', sans-serif;
 }
 
-body{
-	background: linear-gradient(to right, #ffffff, #ffffff);
-	margin-top: 20px;
-}
+
 
 .resume{
 	width: 800px;
@@ -283,4 +280,8 @@ body{
     height: 50px; /* Hauteur du rectangle rose */
     background-color: #ffffff; /* Couleur rose */
     z-index: -1; /* Placez l'élément derrière le contenu */
+}
+.position {
+	position: absolute;
+	left: 750px;
 }
