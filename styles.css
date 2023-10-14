@@ -25,6 +25,9 @@
 	border-top:50px solid #F0CFC3;
 	
 }
+.formations_wrap.pb{
+	margin-bottom: 20px;
+}
 
 .left{
 	background: #ffffff	;
@@ -55,12 +58,13 @@
 	font-weight: 700;
 	text-transform: uppercase;
 	letter-spacing: 0px;
-	padding-bottom: 10px;
 	color: #19323C	;
 	text-align: left;
 	margin-bottom: 15px;
 }
-
+.space {
+	margin-bottom: 50%;
+}
 .left .icon{
 	font-size: 25px;
 	color: #000000;
@@ -168,8 +172,10 @@
 }
 
 .right_inner{
-	padding: 30px;
+	padding: 40px;
 	color: #000000;
+	margin-top: 30px;
+
 }
 
 .right_inner .education{
@@ -188,7 +194,7 @@
 
 .right_inner .li_wrap .info{
 	width: calc(100%);
-	padding-left: 35px;
+	padding-left: 40px;
 	position: relative;
 }
 
@@ -280,7 +286,62 @@
 .right
 {
     height: 100%;
-    background-image: url('triangle.jpg');
+    background-image: url('image/triangle.jpg');
     background-repeat: no-repeat;
     background-position: right bottom;
+}
+.formations_wrap.pb {
+	margin-top: 50px; 
+	margin-bottom: 30px;
+  }
+  .competence{
+	display: flex;
+    justify-content: space-between;
+  }
+  .column {
+    flex: 1;
+    text-align: left;
+	padding: 5px;
+	font-size: 15px;
+}
+
+@media screen and (max-width: 800px) {
+.resume {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.left, .right {
+    width: 100%;
+  }
+ 
+.right {
+margin-right: 85px;
+}
+.img_holder img {
+	width: auto;
+	height: auto;
+	max-width: 100%; 
+	max-height: 100%; 
+	border-radius: 50%; 
+	margin-right: 300px;
+	}
+.education {
+	margin-left: 30px;
+}
+.exp {
+	margin-left: 30px;
+}
+.name {
+	margin-left: 5px;
+}
+.about {
+	margin-left: 5px;
+}
+hr {
+	width: 90%;
+	margin-left: 5px;
+
+}	
 }
