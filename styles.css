@@ -286,7 +286,7 @@
 .right
 {
     height: 100%;
-    background-image: url('image/triangle.jpg');
+    background-image: url('triangle.jpg');
     background-repeat: no-repeat;
     background-position: right bottom;
 }
